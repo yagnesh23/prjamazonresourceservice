@@ -1,10 +1,7 @@
 package com.amazon;
 
-/**
- * Hello world!
- *
- */
-public class App 
+
+public class PrjAmazonResourceServiceApplication
 {
     public static void main( String[] args )
     {
