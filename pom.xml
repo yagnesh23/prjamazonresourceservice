@@ -1,21 +1,27 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-
   <groupId>com.amazon</groupId>
   <artifactId>prjamazonresourceservice</artifactId>
+  <packaging>pom</packaging>
   <version>1.0</version>
-  <packaging>jar</packaging>
+  <parent>
+    <artifactId>prjamazonresourcestarterservice</artifactId>
+    <groupId>com.amazon</groupId>
+    <version>1.0</version>
+  </parent>
 
-  <name>prjamazonresourceservice</name>
+  <name>prjamazoncarouselservice</name>
   <url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
-  </properties>
+  <modules>
+
+    <module>prjamazonresourcequeryservice</module>
+    <module>prjamazonresourcecommonservice</module>
+
+  </modules>
 
   <dependencies>
+
   </dependencies>
 </project>

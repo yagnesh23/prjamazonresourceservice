@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d84f99c2-8f69-4e06-a3b7-db9447d87171" name="Changes" comment="" />
+    <list default="true" id="d84f99c2-8f69-4e06-a3b7-db9447d87171" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcecommonservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcecommonservice/src/main/java/dto/FileExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcecommonservice/src/main/java/dto/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcecommonservice/src/main/java/dto/ResourceFileDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/java/com/amazon/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/java/com/amazon/controller/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/java/com/amazon/entity/FileExtension.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/java/com/amazon/entity/FileType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/java/com/amazon/entity/ResourceFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/java/com/amazon/mapper/ResourceFileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/java/com/amazon/repository/ResourceFileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/java/com/amazon/service/ResourceFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcequeryservice/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcestarterservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcestarterservice/src/main/java/com/amazon/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prjamazonresourcestarterservice/src/test/java/com/amazon/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +34,15 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,26 +53,54 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2l7CXU4RJZdyl46pD27yVw3rnqc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/yagnesh_project/prjamazonresourceservice&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amazon.App" />
+      <module name="prjamazonresourcequeryservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.amazon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
